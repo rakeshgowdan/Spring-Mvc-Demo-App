@@ -24,9 +24,10 @@ public class HelloWorldController {
 	@RequestMapping("processFormVersion2")
 	public String processFormVersion2(HttpServletRequest request,Model m) {
 		String theName=request.getParameter("studentName");
+		System.out.println(theName);
 		theName=theName.toUpperCase();
 		String message="Yo!!"+theName;
-		m.addAttribute(message, "message");
+		m.addAttribute("result",message);
 		
 		
 		return "HelloWorld-User";

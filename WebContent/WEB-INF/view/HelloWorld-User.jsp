@@ -12,6 +12,6 @@ Hello World !! Spring
 <br>
 User Name -> ${param.studentName}
 <br>
-Message -> ${message}
+Message -> ${result}
 </body>
 </html>

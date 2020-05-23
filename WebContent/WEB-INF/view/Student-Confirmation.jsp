@@ -4,15 +4,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Spring-MVC</title>
+<title>Student-Confirmation</title>
 </head>
 <body>
-Spring MVC Demo App
+<h4>Student Details</h4>
+<br>
+First Name is ${student.firstName}
+<br>
+Last Name is ${student.lastName}
 
-<h5>Hello World!! SpringMVC</h5>
- <hr>
- <a href="SecondController/showForm">Show Form</a>
- 
-  <a href="student/showForm">Student Form</a>
 </body>
 </html>

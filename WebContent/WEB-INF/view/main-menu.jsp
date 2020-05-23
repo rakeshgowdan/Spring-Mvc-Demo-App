@@ -11,6 +11,6 @@ Spring MVC Demo App
 
 <h5>Hello World!! SpringMVC</h5>
  <hr>
- <a href="showForm">Show Form</a>
+ <a href="SecondController/showForm">Show Form</a>
 </body>
 </html>

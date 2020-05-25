@@ -8,6 +8,14 @@ public class Student {
 	private String lastName;
 	private String country;
 	private LinkedHashMap<String,String> countryoptions;
+	private String language;
+	
+	public String getLanguage() {
+		return language;
+	}
+	public void setLanguage(String language) {
+		this.language = language;
+	}
 	public String getFirstName() {
 		return firstName;
 	}

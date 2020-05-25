@@ -7,12 +7,16 @@
 <title>Spring-MVC</title>
 </head>
 <body>
-Spring MVC Demo App
+<div align="center">
+<h5>Spring MVC Demo App</h5>
 
 <h5>Hello World!! SpringMVC</h5>
  <hr>
  <a href="SecondController/showForm">Show Form</a>
- 
+ <br>
   <a href="student/showForm">Student Form</a>
+  <br>
+    <a href="Customer/showForm">Customer Form</a>
+    </div>
 </body>
 </html>

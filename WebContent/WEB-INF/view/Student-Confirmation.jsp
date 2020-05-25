@@ -12,6 +12,7 @@
 First Name is ${student.firstName}
 <br>
 Last Name is ${student.lastName}
-
+<br>
+Country is ${student.country}
 </body>
 </html>

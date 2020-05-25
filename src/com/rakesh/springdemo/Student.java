@@ -9,7 +9,14 @@ public class Student {
 	private String country;
 	private LinkedHashMap<String,String> countryoptions;
 	private String language;
+	private String[] os;
 	
+	public String[] getOs() {
+		return os;
+	}
+	public void setOs(String[] os) {
+		this.os = os;
+	}
 	public String getLanguage() {
 		return language;
 	}

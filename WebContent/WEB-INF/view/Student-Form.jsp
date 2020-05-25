@@ -32,6 +32,12 @@ C<form:radiobutton path="language" value="C"/>
 C++<form:radiobutton path="language" value="C++"/>
 Python<form:radiobutton path="language" value="Python"/>
 <br><br>
+Operating Systems &nbsp;&nbsp;&nbsp;
+Windows <form:checkbox path="os" value="Windows"/>
+Linux  <form:checkbox path="os" value="linux"/>
+Mac  <form:checkbox path="os" value="mac"/>
+
+<br><br>
 <input type="submit" value="Submit"/>
 </form:form>
 </body>

@@ -10,5 +10,7 @@
 FirstName :: ${customer.fname}
 <br>
 LastName :: ${customer.lname}
+<br>
+Following customer Needs ${customer.freePasses} passes for the show
 </body>
 </html>

@@ -13,14 +13,25 @@ public class Customer {
 	@Size(min=1,message="is required")
 	private String lname;
 	
+	@NotNull(message ="is required")
 	@Min(value=1,message ="must be greater than or equal to 1")
 	@Max(value =10,message ="must be lesser than or equal to 10")
 	private int freePasses;
 	
+	@NotNull(message ="is required")
 	@Pattern(regexp ="^[0-9]{6}", message ="Format Incorrect")
 	private String postalCode;
 	
+	@CourseCode
+	private String courseCode;
 	
+	
+	public String getCourseCode() {
+		return courseCode;
+	}
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
+	}
 	public String getPostalCode() {
 		return postalCode;
 	}

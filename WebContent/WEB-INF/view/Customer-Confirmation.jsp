@@ -11,6 +11,8 @@ FirstName :: ${customer.fname}
 <br>
 LastName :: ${customer.lname}
 <br>
-Following customer Needs ${customer.freePasses} passes for the show at location ${customer.postalCode}
+Has enrolled for ${customer.courseCode}
+<br>
+Following customer Needs ${customer.freePasses} passes for the Webinar at location ${customer.postalCode}
 </body>
 </html>
